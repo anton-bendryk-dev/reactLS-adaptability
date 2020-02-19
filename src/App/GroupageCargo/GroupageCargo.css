@@ -1,0 +1,20 @@
+.third{
+	background-color: #fff;
+}
+.groupage-cargo{
+	padding-top: 15px;
+	min-height: 400px;
+	padding-left: 46px;
+	padding-right: 40px;
+}
+.groupage-cargo-container{
+	width: 30%;
+	float: left;
+}
+.groupage-cargo h2{
+	margin-bottom: 10px;
+}
+.groupage-cargo-img{
+	width: 70%;
+	float: right;
+}

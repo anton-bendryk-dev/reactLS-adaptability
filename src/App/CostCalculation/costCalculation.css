@@ -1,0 +1,89 @@
+.five {
+    background:url(../../pictures/oboi_international_gruzovik.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 18px;
+    min-height: 600px;
+    
+}
+.CostCalculation-container{
+    display:flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.howItWork{
+    min-width: 30%;
+}
+.howItWork li {
+    list-style-type:decimal;
+    margin-left: 15px;
+}
+.howItWork li, ul {
+    color: ivory;
+    font-size: 15px;
+}
+.Forma-container{
+    min-width: 30%;
+}
+.done{
+	visibility: hidden;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	float: right;
+}
+.calculation-container-big{
+	position: fixed; 
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.calculation-container-small{
+	background-color: #8cbf41;
+	padding:10px 20px 10px 20px;
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: #8cbf41;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width:320px;
+	max-width: 356px;
+}
+.calculation-container-small h2{
+    margin-left: 10px;
+    color: white;
+}
+.input-style{
+	width: 240px;
+	border-radius: 10px;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px 10px 0px 10px;
+}
+.check-box{
+	margin: 10px;
+}
+textarea{
+	margin: 10px;
+	width: 240px;
+	height: 50px;
+}
+.send-button-container{
+	float: right;
+}
+.send-button{
+	border-radius: 10px;
+	border: 1px solid;
+	background-color: white;
+	padding: 10px;
+}
+.send-button a{
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	color: green;
+}

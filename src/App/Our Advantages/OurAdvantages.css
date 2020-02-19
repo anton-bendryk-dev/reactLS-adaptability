@@ -1,0 +1,42 @@
+.first {
+	background-image: url(../../pictures/core_values_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 18px;
+}
+.OurAdvantages{
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.container h2{
+	font-size: 22px;
+	font-weight: 700;
+	color: #8cbf41;
+}
+.container-for-boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.box-img{
+	width: 20%;
+	float: left;
+	margin-left: 15px;
+}
+.box-text{
+	float: right;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	min-height: 100px;
+}
+.box-text p{
+	height: 50px;
+	font-size: 21px;
+	font-weight: 400;
+	color:#727b82;
+}

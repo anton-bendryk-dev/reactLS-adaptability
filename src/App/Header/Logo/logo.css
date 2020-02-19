@@ -1,0 +1,10 @@
+.logo {
+	display: flex;
+	justify-content: center;
+}
+.logo a{
+	outline: none;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 10px;
+}

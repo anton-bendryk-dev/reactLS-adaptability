@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box !important;
+}
+body {
+	background-image: url(../pictures/bgimg.png);
+	overflow-x:hidden;
+}
+h1, h2, h3, h4, p, ul, li, a {
+	font-family: 'Ubuntu', sans-serif;
+}
+.wrapper {
+	width: 100%;
+	min-height: 500px;
+	margin:0 auto;
+}
+
+.inline-wrapper{
+	width: 1170px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+.col-width-30 {
+	width: 30%;
+}
+.col-width-75 {
+	width: 75%;	
+}
+.col-height-50 {
+	height: 50%;
+}
+.col-height-45 {
+	height: 45%;
+}
+.col-height-25 {
+	height: 25%;
+}
+.col-width-25{
+	width: 25%;
+}
+.col-width-15{
+	width: 15%;
+}
+div.col-width-50 {
+	width: 50%;
+}
+.col-width-55 {
+	width: 55%;
+}
+/*START HEADER*/
+
+/*FINISH HEADER*/
+/*START SLIDE*/
+
+/*FINISH SLIDE*/
+.container{
+	min-height: 400px;
+}
+/*START OUR Advantages*/
+
+/*START MAIN ABOUT COMPANY*/
+.main {
+	width: 100%;
+	min-height: 240px;
+	margin-bottom: 10px;
+}
+
+.second{
+	background-image: url(../pictures/company.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 610px;
+	margin-bottom: -18px;
+	margin-top: -8px;
+}
+.info-container{
+	background-color:white;
+	max-width: 520px;
+	min-height: 100px;
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: #8cbf41;
+	padding: 10px;
+	margin-top: 10px;
+}
+.info-container p{
+	margin-left: 16px;
+	font-weight: 400;	
+}
+.info-container h2, h3{
+	font-size: 21px;
+	color: #8cbf41;
+	font-weight: 700;
+	margin-bottom: 3px;
+	font-variant: small-caps;
+	margin-top: 0px;
+}
+.info-container li {
+	margin-left: 16px;
+	font-weight: 400;
+	list-style-type:disc;
+	color:#727b82;
+}
+/*FINISH MAIN ABOUT COMPANY*/
+/*GEOGRAFHY CONTAINER*/
+
+/*FINISH GEOGRAPHY*/
+/*START TRANSPORT*/
+.insert-img {
+	width: 100%;
+	min-height: 200px;
+	max-height:560px;
+	margin-bottom: 80px;
+}
+.insert-img h3{
+	color: white;
+	text-align: center;
+	font-size: 62px;
+	font-weight: 700;
+}
+.deepshadow {
+    color: #e0dfdc;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+.insert-img-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height:600px;
+}
+.second-insert-img{
+	z-index: -1;
+}
+
+/*START SERVICES*/
+.four h2{
+	text-align: center;
+}
+/*START СБОРНЫЕ ГРУЗЫ*/
+/*START FOOTER*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #8cbf41;
+	width: 100%;
+	min-height: 100px;
+	margin-top: 10px;
+	border-radius: 30px;
+	border: 1px solid;
+	border-color: #8cbf41;
+	z-index: 1;
+}
+.footer div{
+	width: 33%;
+	text-align: center;
+}
+.footer p{
+	color: white;
+}
+/*FINISH FOOTER*/
+/*FORMA*/
+
+
