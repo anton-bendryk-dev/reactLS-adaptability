@@ -12,7 +12,7 @@ import Partners from "./Partners/Partners";
 import CostCalculation from "./CostCalculation/CostCalculation.js"
 function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="Main">
       <Header />
       <div>
         <Slide />

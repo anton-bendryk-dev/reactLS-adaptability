@@ -16,11 +16,12 @@
 }
 .howItWork li {
     list-style-type:decimal;
-    margin-left: 15px;
+	margin-left: 15px;
+	-webkit-margin:0px;
 }
 .howItWork li, ul {
     color: ivory;
-    font-size: 15px;
+	font-size: 15px;
 }
 .Forma-container{
     min-width: 30%;
@@ -86,4 +87,8 @@ textarea{
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	color: green;
+}
+#CostCalculation{
+	position: relative;
+	top: 59px;
 }

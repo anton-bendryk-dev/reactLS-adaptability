@@ -18,9 +18,9 @@
 }
 .container-for-boxes{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap; 
 	justify-content: space-between;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 }
 .box-img{
 	width: 20%;

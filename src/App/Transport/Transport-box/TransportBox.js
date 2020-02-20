@@ -1,7 +1,7 @@
 const TransportBox = [
    {
       id:1,
-      image:'/pictures/transport/transport1.jpg',
+      image:'./pictures/transport/transport1.jpg',
       name:'Тентованый полуприцеп (еврофура):',
       CarryingCapacity:'Грузоподъемность: до 22,5 тонн.',
       UsefulVolume:'Полезный объем: 82-92 м.куб',
@@ -12,7 +12,7 @@ const TransportBox = [
    },
    {
       id:2,
-      image:'/pictures/transport/transport12.jpg',
+      image:'./pictures/transport/transport12.jpg',
       name:'Тентовый полуприцеп большего объема Jumbo:',
       CarryingCapacity:'Грузоподъемность: до 23 тонн.',
       UsefulVolume:'Полезный объем: 96 м.куб.',

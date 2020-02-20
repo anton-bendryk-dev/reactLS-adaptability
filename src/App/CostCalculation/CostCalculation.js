@@ -35,7 +35,7 @@ const CostCalculation = () => {
                                         <label id="Geography"><input type="checkbox" name="" value="yes" />&#8195;АДР</label>
                                     </div>
                                     <div class="send-button-container">
-                                        <div class="send-button"><a href="/">Отправить</a></div>
+                                        <div class="send-button"><a href="#Main">Отправить</a></div>
                                     </div>
                         </form>
                     </div>
