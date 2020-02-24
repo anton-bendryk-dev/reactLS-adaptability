@@ -27,7 +27,7 @@ import flag24 from "../../../pictures/country/flag24.png";
 
 const Flags = () => {
     return (
-        <div>
+        <div className="flags">
             <div className="flag"><img src={flag1} alt="" /></div>
             <div><img src={flag2} alt="" /></div>
             <div><img src={flag3} alt="" /></div>
@@ -52,10 +52,6 @@ const Flags = () => {
             <div><img src={flag22} alt="" /></div>
             <div><img src={flag23} alt="" /></div>
             <div><img src={flag24} alt="" /></div>
-            <div><img src={flag3} alt="" /></div>
-            <div><img src={flag4} alt="" /></div>
-            <div><img src={flag8} alt="" /></div>
-            <div><img src={flag19} alt="" /></div>
         </div>
     )
 }

@@ -1,3 +1,4 @@
+@media screen and (min-width: 1270px) {
 .inline-main{
 	display: flex;
 	margin-top: 20px;
@@ -21,7 +22,7 @@
 	border-radius: 0px 30px 30px 30px;
 }
 .geography-content-container {
-	min-height: 500px;
+	min-height: 200px;
 	width: 82%;
 	background-color: white;
 	border-radius: 0px 0px 30px 30px;
@@ -38,18 +39,14 @@
 }
 .delivery-map {
 	min-height: 490px;
-	background-image: url('../../pictures/delivery-map.png');
 	background-position: center;
-	background-size: unset;
 	background-repeat: no-repeat;
+	background-size: unset;
 	margin-top: 10px;
 	width: 100%;
 	border-radius: 30px;
 	border: 1px solid;
 	border-color: #8cbf41;
-}
-.three-arrows{
-	text-align: center;
 }
 .geography-container{
 	display: flex;
@@ -100,27 +97,6 @@
 	border-radius: 17px;
 	color: #fff;
 	font-size: 1.5rem;
-}
-.europe{
-	background-color: white;
-	background-image: url(../../pictures/europe.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-.asia{
-	background-color: white;
-	background-image: url(../../pictures/asia.jpg);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-.sng{
-	background-color: white;
-	background-image: url(../../pictures/sng.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .back{
   background-color: #0153a1;
@@ -213,4 +189,38 @@
 }
 .geography-info div:last-child{
 		width: 30%;
+}	
+.three-arrows{
+	min-height: 150px;
+}
+}
+.europe{
+	background-color: white;
+	background-image: url(../../pictures/europe.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.asia{
+	background-color: white;
+	background-image: url(../../pictures/asia.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.sng{
+	background-color: white;
+	background-image: url(../../pictures/sng.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.delivery-map {
+	background-image: url('../../pictures/delivery-map.png');
+}
+.three-arrows{
+	background-image: url('../../pictures/three-arrows.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import './geography.css';
 import Flags from './Flags/Flags.js';
-import ThreeArrows from '../../pictures/three-arrows.png';
 import mezhdunarodnyye from '../../pictures/mezhdunarodnyye.jpg';
 const Geography = () => {
     return (
@@ -13,7 +12,7 @@ const Geography = () => {
                 <div className="geography-content">
                     <h2>География Грузоперевозок</h2>
                     <div className="delivery-map"></div>
-                    <div className="three-arrows"><img src={ThreeArrows} alt="" /></div>
+                    <div className="three-arrows"></div>
                     <div className="geography-container">
                         <div className="info-box">
                             <div className="front europe">

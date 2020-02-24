@@ -8,7 +8,7 @@ const Header  = () => {
     return (
         <div className="header">
 			<div className="inline-header">
-				<div className="col-width-25 logo">
+				<div className="col-width-25">
 					<Logo/>
 				</div>
 				<div className="col-width-75">

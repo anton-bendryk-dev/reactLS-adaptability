@@ -9,7 +9,10 @@ import Transport from './Transport/Transport.js';
 import slide3 from '../pictures/slide3.jpg';
 import GroupageCargo from './GroupageCargo/GroupageCargo.js';
 import Partners from "./Partners/Partners";
-import CostCalculation from "./CostCalculation/CostCalculation.js"
+import CostCalculation from "./CostCalculation/CostCalculation.js";
+import '../style/IPud.css';
+import '../style/phone.css';
+
 function App() {
   return (
     <div className="wrapper" id="Main">

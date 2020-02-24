@@ -5,14 +5,15 @@
 	
 }
 .header-contacts div{
-	min-width: 200px;
 	color: #2f3329;
-	padding-top: 3px;
 }
 .header-links a{
 	text-decoration: none;
-	color: #2f3329;
 	outline: none;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	color: #2f3329;
 }
 .header-links a:hover{
 	color:#8cbf41;
@@ -22,9 +23,18 @@
 }
 .link-img {
 	display: inline-block;
-	width: 16px;
-	height: 16px;
 	background-image: url(../../../pictures/icons8-external-link-squared-24.png);
 	background-origin:content-box;
 	background-size: cover;
 }
+@media screen and (min-width: 1270px) {
+	.header-contacts div{
+		min-width: 200px;
+		padding-top: 3px;
+	}
+	.link-img {
+		width: 16px;
+		height: 16px;
+	}
+}
+ 

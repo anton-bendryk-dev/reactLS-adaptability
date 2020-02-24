@@ -23,7 +23,7 @@ const TransportBox = [
    },
    {
       id:3,
-      image:'/pictures/transport/transport2.jpg',
+      image:'./pictures/transport/transport2.jpg',
       name:'Тентовый полуприцеп большего объема МЕГА:',
       CarryingCapacity:'Грузоподъемность: до 23 тонн.',
       UsefulVolume:'Полезный объем: 100 м.куб.',
@@ -34,7 +34,7 @@ const TransportBox = [
    },
    {
       id:4,
-      image:'/pictures/transport/transport4.jpg',
+      image:'./pictures/transport/transport4.jpg',
       name:'Рефрижераторный фургон:',
       CarryingCapacity:'Грузоподъемность: 12-22 тонн.',
       UsefulVolume:'Полезный объем: 60-92 м.куб',
@@ -45,7 +45,7 @@ const TransportBox = [
    },
    {
       id:5,
-      image:'/pictures/transport/transport5.jpg',
+      image:'./pictures/transport/transport5.jpg',
       name:'Изотермический фургон:',
       CarryingCapacity:'Грузоподъемность: до 23 тонн.',
       UsefulVolume:'Полезный объем: до 92 м.куб.',
@@ -56,7 +56,7 @@ const TransportBox = [
    },
    {
       id:6,
-      image:'/pictures/transport/transport6.jpg',
+      image:'./pictures/transport/transport6.jpg',
       name:'Открытый бортовой полуприцеп:',
       CarryingCapacity:'Грузоподъемность: до 23 тонн.',
       UsefulVolume:'Полезный объем: 82-92 м.куб',
@@ -67,7 +67,7 @@ const TransportBox = [
    },
    {
       id:7,
-      image:'/pictures/transport/transport7.jpg',
+      image:'./pictures/transport/transport7.jpg',
       name:'Открытая платформа:',
       CarryingCapacity:'Грузоподъемность: 15-23 тонн.',
       UsefulVolume:'Полезный объем: допускается разный объём груза',
@@ -78,7 +78,7 @@ const TransportBox = [
    },
    {
       id:8,
-      image:'/pictures/transport/transport8.png',
+      image:'./pictures/transport/transport8.png',
       name:'Платформа для негабаритных и тяжеловесных грузов:',
       CarryingCapacity:'Грузоподъемность: 20-200 тонн.',
       UsefulVolume:'Полезный объем: допускается разный объём груза',
@@ -89,7 +89,7 @@ const TransportBox = [
    },
    {
       id:9,
-      image:'/pictures/transport/transport9.jpg',
+      image:'./pictures/transport/transport9.jpg',
       name:'Цельномет:',
       CarryingCapacity:'Грузоподъемность: до 23 тонн.',
       UsefulVolume:'Полезный объем: 86 м.куб',
@@ -100,7 +100,7 @@ const TransportBox = [
    },
    {
       id:10,
-      image:'/pictures/transport/transport3.jpg',
+      image:'./pictures/transport/transport3.jpg',
       name:'Автосцепка:',
       CarryingCapacity:'Грузоподъемность: 16-23 тонн.',
       UsefulVolume:'Полезный объем: 100-120 м.куб',
@@ -111,7 +111,7 @@ const TransportBox = [
    },
    {
       id:11,
-      image:'/pictures/transport/transport10.jpg',
+      image:'./pictures/transport/transport10.jpg',
       name:'Автоцистерна:',
       CarryingCapacity:'Грузоподъемность: 20 тонн.',
       UsefulVolume:'Полезный объем: от 1500 до 50000 литров',
@@ -122,7 +122,7 @@ const TransportBox = [
    },
    {
       id:12,
-      image:'/pictures/transport/transport11.jpg',
+      image:'./pictures/transport/transport11.jpg',
       name:'Другие мало и среднетоннажные автомобили:',
       CarryingCapacity:'Грузоподъемность: 3-12 тонн.',
       UsefulVolume:'Полезный объем: уточнять',

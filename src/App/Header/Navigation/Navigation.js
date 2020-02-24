@@ -8,19 +8,19 @@ const Navigation = () => {
 				<div className="menu-buttons"><a href="#Main">Главная</a></div>
 			</div>
 			<div className="col-width-25">
-				<div className="menu-buttons"><a href="#Main">Компания&#8195;<img src={ArrowDown} alt="" /></a>
+				<div className="menu-buttons"><a href="#Main">Компания<img src={ArrowDown} alt="" /></a>
 					<div className="drop-menu">
 						<div className="menu-buttons"><a href="#about-company">О Нас</a></div>
 						<div className="menu-buttons"><a href="#partners">Наши Партнеры</a></div>
 						<div className="menu-buttons"><a href="#Main">Наша Команда</a></div>
-						<div className="menu-buttons"><a href="#Main">Сертификаты</a></div>
+						<div className="menu-buttons"><a href="https://www.facebook.com/companylogisticssolutions/">Мы в Facebook</a></div>
 						<div className="menu-buttons"><a href='https://www.work.ua/ru/jobs/by-company/1202656/'>Вакансии</a></div>
 					</div>
 				</div>
 			</div>
 			<div className="col-width-25">
 				<div className="menu-buttons transport">
-					<a href="#Main">Транспорт&#8195;<img src={ArrowDown} alt="" /></a>
+					<a href="#Main">Транспорт<img src={ArrowDown} alt="" /></a>
 					<div className="drop-menu">
 						<div className="menu-buttons"><a href="#Geography">География</a></div>
 						<div className="menu-buttons"><a href="#Transport">Автомобильные</a></div>

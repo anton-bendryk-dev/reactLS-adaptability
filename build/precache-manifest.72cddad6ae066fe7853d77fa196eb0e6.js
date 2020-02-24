@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd7db7844676a98c3ec150546aff9467",
+    "revision": "ef68b564c7de98d1d1829f34515b96e0",
     "url": "/logistics-solutions/index.html"
   },
   {
-    "revision": "5068faafc8a49eed425c",
-    "url": "/logistics-solutions/static/css/main.f8c6f23d.chunk.css"
+    "revision": "ed469170e0e4c39ce1a1",
+    "url": "/logistics-solutions/static/css/main.ae3ac385.chunk.css"
   },
   {
     "revision": "598d72a1d026c81b242a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/logistics-solutions/static/js/2.adba39b3.chunk.js.LICENSE"
   },
   {
-    "revision": "5068faafc8a49eed425c",
-    "url": "/logistics-solutions/static/js/main.ba2429dd.chunk.js"
+    "revision": "ed469170e0e4c39ce1a1",
+    "url": "/logistics-solutions/static/js/main.91302f7d.chunk.js"
   },
   {
     "revision": "4fe53ab5421ab73655ce",

@@ -1,35 +1,21 @@
+@media screen and (min-width: 1270px) {
 * {
 	box-sizing: border-box !important;
-}
-body {
-	background-image: url(../pictures/bgimg.png);
-	overflow-x:hidden;
 }
 h1, h2, h3, h4, p, ul, li, a {
 	font-family: 'Ubuntu', sans-serif;
 }
-.wrapper {
-	width: 100%;
-	min-height: 500px;
-	margin:0 auto;
-}
-
-.inline-wrapper{
-	width: 1170px !important;
-	margin-left: auto;
-	margin-right: auto;
-}
 .row:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 .row { display: inline-block; }
 /* start commented backslash hack \*/
-* html .row { height: 1%; }
+  * html .row { height: 1%; }
 .row { display: block; }
 .col-width-30 {
 	width: 30%;
@@ -58,24 +44,42 @@ div.col-width-50 {
 .col-width-55 {
 	width: 55%;
 }
-/*START HEADER*/
+body {
+	background-image: url(../pictures/bgimg.png);
+	overflow-x:hidden;
+}
+.wrapper {
+	width: 100%;
+	min-height: 500px;
+	margin:0 auto;
+}
 
+.inline-wrapper{
+	width: 1170px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*START HEADER*/
+.header{
+	width: 1170px;
+	min-height: 100px;
+}
+.inline-header{
+	border-radius: 30px;
+}
 /*FINISH HEADER*/
 /*START SLIDE*/
-
 /*FINISH SLIDE*/
 .container{
 	min-height: 400px;
 }
 /*START OUR Advantages*/
-
 /*START MAIN ABOUT COMPANY*/
 .main {
 	width: 100%;
 	min-height: 240px;
 	margin-bottom: 10px;
 }
-
 .second{
 	background-image: url(../pictures/company.jpg) ;
 	background-repeat: no-repeat;
@@ -115,7 +119,6 @@ div.col-width-50 {
 }
 /*FINISH MAIN ABOUT COMPANY*/
 /*GEOGRAFHY CONTAINER*/
-
 /*FINISH GEOGRAPHY*/
 /*START TRANSPORT*/
 .insert-img {
@@ -160,7 +163,6 @@ div.col-width-50 {
 .second-insert-img{
 	z-index: -1;
 }
-
 /*START SERVICES*/
 .four h2{
 	text-align: center;
@@ -190,5 +192,4 @@ div.col-width-50 {
 }
 /*FINISH FOOTER*/
 /*FORMA*/
-
-
+}

@@ -5,38 +5,67 @@
 	background-size: cover;
 	margin-top: 18px;
 }
-.OurAdvantages{
-	margin-top: 10px;
-	text-align: center;
-	padding-top: 10px;
-	margin-bottom: 10px;
+.benefits1{
+	background-image: url('../../pictures/benefits/benefits1.png');
+}	
+.benefits2{
+	background-image: url('../../pictures/benefits/benefits2.png');
 }
-.container h2{
-	font-size: 22px;
-	font-weight: 700;
-	color: #8cbf41;
+.benefits3{
+	background-image: url('../../pictures/benefits/benefits3.png');
 }
-.container-for-boxes{
-	display: flex;
-	flex-wrap: wrap; 
-	justify-content: space-between;
-	padding-bottom: 100px;
+.benefits4{
+	background-image: url('../../pictures/benefits/benefits4.png');
 }
-.box-img{
-	width: 20%;
-	float: left;
-	margin-left: 15px;
+.benefits5{
+	background-image: url('../../pictures/benefits/benefits5.png');
 }
-.box-text{
-	float: right;
-	width: 70%;
-	display: flex;
-	align-items: center;
-	min-height: 100px;
+.benefits6{
+	background-image: url('../../pictures/benefits/benefits6.png');
 }
-.box-text p{
-	height: 50px;
-	font-size: 21px;
-	font-weight: 400;
-	color:#727b82;
+.box-img div{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1270px) {
+	.OurAdvantages{
+		margin-top: 10px;
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+	.container h2{
+		font-size: 22px;
+		font-weight: 700;
+		color: #8cbf41;
+	}
+	.box-img{
+		width: 20%;
+		height: 100%;
+		float: left;
+		margin-left: 15px;
+	}
+	.box-text{
+		float: right;
+		width: 70%;
+		display: flex;
+		align-items: center;
+		min-height: 100px;
+	}
+	.box-text p{
+		height: 50px;
+		font-size: 21px;
+		font-weight: 400;
+		color:#727b82;
+	}
+	.container-for-boxes{
+		display: flex;
+		flex-wrap: wrap; 
+		justify-content: space-between;
+		padding-bottom: 100px;
+	}
 }
