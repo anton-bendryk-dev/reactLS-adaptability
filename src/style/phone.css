@@ -51,13 +51,10 @@
     .wrapper {
         width: 100%;
         min-height: 500px;
-        margin:0 auto;
     }
     
     .inline-wrapper{
         width: 100% !important;
-        margin-left: auto;
-        margin-right: auto;
     }
     /*START HEADER*/
     .header{
@@ -70,7 +67,7 @@
         padding: 0px;
     }
     .logo a{
-        background-image: url(../pictures/logoPhone.png) ;
+        background-image: url(../pictures/logo.png) ;
         background-repeat: no-repeat;
         background-position:center;
         background-size: contain;
@@ -83,7 +80,7 @@
 		padding-top: 3px;
     }
     .header-contacts span{
-        font-size: 6px;
+        font-size: 9px;
     }
     .header-links a{
         font-size: 8px;
@@ -95,9 +92,6 @@
     .menu-buttons{	
 		height: 25px;
 		width: 100%;
-		border-radius: 10px;
-		border: 1px solid;
-		border-color: #8cbf41;
         position: static;
     }
     .menu-buttons a{
@@ -109,27 +103,26 @@
         justify-content: center;
     }
     .menu-buttons img {
-        width: 12px;
-        height: 8px;
+        width: 10px;
+        height: 6px;
     }
     .drop-menu {
 		position: absolute;
-		top: 55px;
+        top: 55px;
+        width: 70px;
 	}
     /*FINISH HEADER*/
     /*START SLIDE*/
     .slide {
         width: 100%;
-        margin-bottom: 65px;
+        margin-bottom: 0px;
     }
     .slide-container{
         display: flex;
         align-items: center;
         justify-content: center;
-        max-height:280px;
-        max-width: 1800px;
-        margin-left: auto;
-        margin-right: auto;
+        max-height:260px;
+        width: 100%;
     }
     @keyframes fade {
       0%   { opacity: 0; }
@@ -142,15 +135,13 @@
     .fadein { 
         position:relative; 
         width:100%;
-        min-height: 156px;
-        max-height:280px;
-        margin-bottom: 30px;
+        height:240px;
+        margin-bottom: 0px;
         }
     .fadein div { 
         position:absolute;
         width:100%; 
-        min-height: 260px;
-        max-height: 280px;
+        height: 240px;
         left:0; 
         right:0; 
         opacity:0; 
@@ -161,9 +152,8 @@
         .fadein img { 
             position:absolute;
             width:100%; 
-            min-height: 260px;
-            max-height: 280px;
-            max-width: 1900px;
+            height: 240px;
+            width: 100%;
             left:0; 
             right:0; 
             }
@@ -183,7 +173,7 @@
         animation-duration: 15s; 
         animation-iteration-count: infinite;
         z-index: 1;
-        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e;
         -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
         }
@@ -495,7 +485,7 @@
     .insert-img h3{
         color: white;
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
     }
     .deepshadow {
@@ -508,10 +498,6 @@
           0 4px 0 #282828, 
           0 5px 0 #262626, 
           0 6px 0 #242424, 
-          0 7px 0 #222, 
-          0 8px 0 #202020, 
-          0 9px 0 #1e1e1e, 
-          0 10px 0 #1c1c1c, 
           0 22px 30px rgba(0, 0, 0, 0.9);
     }
     .insert-img-container{
@@ -542,18 +528,23 @@
         text-align: center;
     }
     /*START СБОРНЫЕ ГРУЗЫ*/
+    .third{
+        min-height: 200px;
+    }
     .groupage-cargo{
 		padding-top: 15px;
-		min-height: 400px;
+		min-height: 200px;
 		padding-left: 10px;
 		padding-right: 0px;
+    }
+    .groupage-cargo-container{
+        width: 100%;
 	}
 	.groupage-cargo h2{
 		margin-bottom: 0px;
     }
     .groupage-cargo p{
         font-size: 10px;
-        float: left;
     }
     .groupage-cargo-img{
         margin-top: 39px;
@@ -561,25 +552,24 @@
     .groupage-cargo img{
         width: 200px;
     }
-    .partners h3 {
-        position: relative !important;
-        left: 60px !important;
-        bottom: -44px !important;
-        margin-bottom: 150px !important;
+    .container{
+        min-height: 200px;
+    }
+    .partners{
+        min-height:250px;
+        display: block;
     }
     .partners h3{
-        width: 204px;
-        position: relative;
-        left: 250px;
-        bottom: 80px;
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        width: 200px !important;
         font-size: 28px;
+        margin-bottom: 113px !important;
+        position: relative;
+        left: 10px !important;
+        top: 190px !important;
     }
     .partners img{
-        margin-left: 30px;
-        width: 100px;
+        margin-left: 3px;
+        width: 80px;
     }
     /*START FOOTER*/
     .footer{
