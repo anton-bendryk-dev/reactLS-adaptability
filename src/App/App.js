@@ -6,7 +6,6 @@ import Slide from './Slide/Slide.js';
 import OurAdvantages from './Our Advantages/OurAdvantages.js';
 import Geography from './Geography/Geography.js';
 import Transport from './Transport/Transport.js';
-import slide3 from '../pictures/slide3.jpg';
 import GroupageCargo from './GroupageCargo/GroupageCargo.js';
 import Partners from "./Partners/Partners";
 import CostCalculation from "./CostCalculation/CostCalculation.js";
@@ -40,10 +39,8 @@ function App() {
           <Geography />
         </div>
       </div>
-      <div className="insert-img row"><h3 className='deepshadow'>Автомобильные грузоперевозки</h3>
-        <div className="insert-img-container">
-          <div className="second-insert-img"><img src={slide3} alt="" /></div>
-        </div>
+      <div className="insert-img row">
+        <h3 className='deepshadow'>Автомобильные грузоперевозки</h3>
       </div>
       <div className="inline-wrapper">
         <div className="main row">

@@ -560,9 +560,11 @@
     /*START TRANSPORT*/
     .insert-img {
         width: 100%;
-        min-height: 200px;
-        max-height:560px;
-        margin-bottom: 80px;
+        height:600px;
+        margin-bottom: 0px;
+        background-image: url(../pictures/slide3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .insert-img h3{
         color: white;
@@ -590,15 +592,6 @@
           0 14px 0 #141414, 
           0 15px 0 #121212, 
           0 22px 30px rgba(0, 0, 0, 0.9);
-    }
-    .insert-img-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-height:600px;
-    }
-    .second-insert-img{
-        z-index: -1;
     }
     .transport-box{
 		width: 200px;
