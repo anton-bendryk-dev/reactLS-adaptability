@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../style/resetLs.css';
 import '../style/ls.css';
 import Header from './Header/Header.js';
@@ -11,7 +11,6 @@ import Partners from "./Partners/Partners";
 import CostCalculation from "./CostCalculation/CostCalculation.js";
 import '../style/IPud.css';
 import '../style/phone.css';
-import {Animated} from "react-animated-css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 

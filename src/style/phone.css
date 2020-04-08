@@ -197,7 +197,13 @@
         max-width:45% !important;
     }
 	.services {
-		max-width:45%!important;
+		max-width:45% !important;
+    }
+    .us{
+        height: 260px !important;
+    }
+	.service {
+        height: 260px !important;
 	}
 	.about-company h2{
 		margin-left: 5px;

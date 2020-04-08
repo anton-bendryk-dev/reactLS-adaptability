@@ -18,10 +18,18 @@
 		padding-top: 100px;
 		font-size: 18px;
 	}
+	.about-us{
+        max-width:45% !important;
+    }
 	.services {
-		min-width:520px;
+		max-width:45% !important;
+    }
+    .us{
+		min-height: 240px !important;
+    }
+	.service {
+		min-height: 240px !important;
+		min-width:520px !important;
 	}
-	.about-company h2{
-		margin-left: 15px;
-	}
+
 }

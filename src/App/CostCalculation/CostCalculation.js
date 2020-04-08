@@ -1,6 +1,5 @@
 import React from 'react';
 import './costCalculation.css';
-import {Animated} from "react-animated-css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const CostCalculation = () => {
