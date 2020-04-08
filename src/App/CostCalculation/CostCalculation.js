@@ -1,11 +1,15 @@
 import React from 'react';
 import './costCalculation.css';
+import {Animated} from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const CostCalculation = () => {
     return (
         <div className="CostCalculation-container">
             <div className="howItWork">
+            <ScrollAnimation animateIn="fadeInUp">
                 <h3>КАК ЭТО РАБОТАЕТ?</h3>
+            </ScrollAnimation>
                 <ul>Для начала нашего сотрудничества, необходимо выполнить следующие шаги:</ul>
                 <li>Оставить заявку на доставку груза;</li>
                 <li>Мы рассчитываем стоимость доставки, маршрут, сроки доставки;</li>

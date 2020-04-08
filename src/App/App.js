@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../style/resetLs.css';
 import '../style/ls.css';
 import Header from './Header/Header.js';
@@ -11,6 +11,9 @@ import Partners from "./Partners/Partners";
 import CostCalculation from "./CostCalculation/CostCalculation.js";
 import '../style/IPud.css';
 import '../style/phone.css';
+import {Animated} from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 function App() {
   return (
@@ -40,7 +43,9 @@ function App() {
         </div>
       </div>
       <div className="insert-img row">
-          <h3 className='deepshadow wow'>Автомобильные грузоперевозки</h3>
+        <ScrollAnimation animateIn="fadeInLeft">
+            <h3 className='deepshadow wow'>Автомобильные грузоперевозки</h3>
+        </ScrollAnimation>
       </div>
       <div className="inline-wrapper">
         <div className="main row">
