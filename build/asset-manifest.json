@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/logistics-solutions/static/css/main.235b18b3.chunk.css",
-    "main.js": "/logistics-solutions/static/js/main.101c2dc6.chunk.js",
-    "main.js.map": "/logistics-solutions/static/js/main.101c2dc6.chunk.js.map",
+    "main.css": "/logistics-solutions/static/css/main.6e3a23bc.chunk.css",
+    "main.js": "/logistics-solutions/static/js/main.2ba9affd.chunk.js",
+    "main.js.map": "/logistics-solutions/static/js/main.2ba9affd.chunk.js.map",
     "runtime-main.js": "/logistics-solutions/static/js/runtime-main.f43b7bba.js",
     "runtime-main.js.map": "/logistics-solutions/static/js/runtime-main.f43b7bba.js.map",
-    "static/js/2.1dd162ad.chunk.js": "/logistics-solutions/static/js/2.1dd162ad.chunk.js",
-    "static/js/2.1dd162ad.chunk.js.map": "/logistics-solutions/static/js/2.1dd162ad.chunk.js.map",
+    "static/js/2.6e479715.chunk.js": "/logistics-solutions/static/js/2.6e479715.chunk.js",
+    "static/js/2.6e479715.chunk.js.map": "/logistics-solutions/static/js/2.6e479715.chunk.js.map",
     "index.html": "/logistics-solutions/index.html",
-    "precache-manifest.666adaeeb09dfded492418c9d45122a0.js": "/logistics-solutions/precache-manifest.666adaeeb09dfded492418c9d45122a0.js",
+    "precache-manifest.5868e9ad8c19351b0e39d674c21a43f6.js": "/logistics-solutions/precache-manifest.5868e9ad8c19351b0e39d674c21a43f6.js",
     "service-worker.js": "/logistics-solutions/service-worker.js",
-    "static/css/main.235b18b3.chunk.css.map": "/logistics-solutions/static/css/main.235b18b3.chunk.css.map",
-    "static/js/2.1dd162ad.chunk.js.LICENSE": "/logistics-solutions/static/js/2.1dd162ad.chunk.js.LICENSE",
+    "static/css/main.6e3a23bc.chunk.css.map": "/logistics-solutions/static/css/main.6e3a23bc.chunk.css.map",
+    "static/js/2.6e479715.chunk.js.LICENSE": "/logistics-solutions/static/js/2.6e479715.chunk.js.LICENSE",
     "static/media/geography.css": "/logistics-solutions/static/media/sng.e75a0536.png",
     "static/media/partners.css": "/logistics-solutions/static/media/bg-avtotransport-01.26225060.jpg",
     "static/media/client-001.jpg": "/logistics-solutions/static/media/client-001.04fa9213.jpg",
@@ -21,20 +21,19 @@
     "static/media/client-005.jpg": "/logistics-solutions/static/media/client-005.e6ac8773.jpg",
     "static/media/client-006.jpg": "/logistics-solutions/static/media/client-006.9d5d388d.jpg",
     "static/media/client-007.jpg": "/logistics-solutions/static/media/client-007.53ef86f0.jpg",
-    "static/media/phone.css": "/logistics-solutions/static/media/logo.cdecdd04.png",
+    "static/media/phone.css": "/logistics-solutions/static/media/slide3.ed110235.jpg",
     "static/media/OurAdvantages.css": "/logistics-solutions/static/media/core_values_bg.77d231bd.jpg",
     "static/media/groupage-cargo.jpg": "/logistics-solutions/static/media/groupage-cargo.edb8609b.jpg",
     "static/media/mezhdunarodnyye.jpg": "/logistics-solutions/static/media/mezhdunarodnyye.8fd0cb51.jpg",
     "static/media/costCalculation.css": "/logistics-solutions/static/media/oboi_international_gruzovik.f616ae39.jpg",
     "static/media/slide01.jpg": "/logistics-solutions/static/media/slide01.0ae11775.jpg",
     "static/media/slide2.jpg": "/logistics-solutions/static/media/slide2.b314a8a6.jpg",
-    "static/media/slide3.jpg": "/logistics-solutions/static/media/slide3.ed110235.jpg",
     "static/media/slide4.jpg": "/logistics-solutions/static/media/slide4.349f31a7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f43b7bba.js",
-    "static/js/2.1dd162ad.chunk.js",
-    "static/css/main.235b18b3.chunk.css",
-    "static/js/main.101c2dc6.chunk.js"
+    "static/js/2.6e479715.chunk.js",
+    "static/css/main.6e3a23bc.chunk.css",
+    "static/js/main.2ba9affd.chunk.js"
   ]
 }

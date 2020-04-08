@@ -40,7 +40,7 @@ function App() {
         </div>
       </div>
       <div className="insert-img row">
-        <h3 className='deepshadow'>Автомобильные грузоперевозки</h3>
+          <h3 className='deepshadow wow'>Автомобильные грузоперевозки</h3>
       </div>
       <div className="inline-wrapper">
         <div className="main row">
