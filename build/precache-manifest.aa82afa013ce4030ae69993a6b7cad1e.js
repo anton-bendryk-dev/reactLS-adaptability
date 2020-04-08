@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ed020039c483442f06a7706e3bd86b8",
+    "revision": "9c27572b9bf64b61e2a9571aa7cbe42f",
     "url": "/logistics-solutions/index.html"
   },
   {
-    "revision": "fede3cc845812a5c6bb7",
+    "revision": "7a615e87a188d5b0377e",
+    "url": "/logistics-solutions/static/css/2.5bc09813.chunk.css"
+  },
+  {
+    "revision": "e50bd9bd6e77e0a2b1ad",
     "url": "/logistics-solutions/static/css/main.6e3a23bc.chunk.css"
   },
   {
-    "revision": "f1b91ee89746000471ed",
-    "url": "/logistics-solutions/static/js/2.6e479715.chunk.js"
+    "revision": "7a615e87a188d5b0377e",
+    "url": "/logistics-solutions/static/js/2.3434eaac.chunk.js"
   },
   {
-    "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/logistics-solutions/static/js/2.6e479715.chunk.js.LICENSE"
+    "revision": "53b91fb6912e14c9689b5be87306d93a",
+    "url": "/logistics-solutions/static/js/2.3434eaac.chunk.js.LICENSE"
   },
   {
-    "revision": "fede3cc845812a5c6bb7",
-    "url": "/logistics-solutions/static/js/main.2ba9affd.chunk.js"
+    "revision": "e50bd9bd6e77e0a2b1ad",
+    "url": "/logistics-solutions/static/js/main.429984c4.chunk.js"
   },
   {
     "revision": "4fe53ab5421ab73655ce",

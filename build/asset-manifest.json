@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/logistics-solutions/static/css/main.6e3a23bc.chunk.css",
-    "main.js": "/logistics-solutions/static/js/main.2ba9affd.chunk.js",
-    "main.js.map": "/logistics-solutions/static/js/main.2ba9affd.chunk.js.map",
+    "main.js": "/logistics-solutions/static/js/main.429984c4.chunk.js",
+    "main.js.map": "/logistics-solutions/static/js/main.429984c4.chunk.js.map",
     "runtime-main.js": "/logistics-solutions/static/js/runtime-main.f43b7bba.js",
     "runtime-main.js.map": "/logistics-solutions/static/js/runtime-main.f43b7bba.js.map",
-    "static/js/2.6e479715.chunk.js": "/logistics-solutions/static/js/2.6e479715.chunk.js",
-    "static/js/2.6e479715.chunk.js.map": "/logistics-solutions/static/js/2.6e479715.chunk.js.map",
+    "static/css/2.5bc09813.chunk.css": "/logistics-solutions/static/css/2.5bc09813.chunk.css",
+    "static/js/2.3434eaac.chunk.js": "/logistics-solutions/static/js/2.3434eaac.chunk.js",
+    "static/js/2.3434eaac.chunk.js.map": "/logistics-solutions/static/js/2.3434eaac.chunk.js.map",
     "index.html": "/logistics-solutions/index.html",
-    "precache-manifest.5868e9ad8c19351b0e39d674c21a43f6.js": "/logistics-solutions/precache-manifest.5868e9ad8c19351b0e39d674c21a43f6.js",
+    "precache-manifest.aa82afa013ce4030ae69993a6b7cad1e.js": "/logistics-solutions/precache-manifest.aa82afa013ce4030ae69993a6b7cad1e.js",
     "service-worker.js": "/logistics-solutions/service-worker.js",
+    "static/css/2.5bc09813.chunk.css.map": "/logistics-solutions/static/css/2.5bc09813.chunk.css.map",
     "static/css/main.6e3a23bc.chunk.css.map": "/logistics-solutions/static/css/main.6e3a23bc.chunk.css.map",
-    "static/js/2.6e479715.chunk.js.LICENSE": "/logistics-solutions/static/js/2.6e479715.chunk.js.LICENSE",
+    "static/js/2.3434eaac.chunk.js.LICENSE": "/logistics-solutions/static/js/2.3434eaac.chunk.js.LICENSE",
     "static/media/geography.css": "/logistics-solutions/static/media/sng.e75a0536.png",
     "static/media/partners.css": "/logistics-solutions/static/media/bg-avtotransport-01.26225060.jpg",
     "static/media/client-001.jpg": "/logistics-solutions/static/media/client-001.04fa9213.jpg",
@@ -32,8 +34,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f43b7bba.js",
-    "static/js/2.6e479715.chunk.js",
+    "static/css/2.5bc09813.chunk.css",
+    "static/js/2.3434eaac.chunk.js",
     "static/css/main.6e3a23bc.chunk.css",
-    "static/js/main.2ba9affd.chunk.js"
+    "static/js/main.429984c4.chunk.js"
   ]
 }
